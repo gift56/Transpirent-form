@@ -52,6 +52,8 @@
         .row {
             gap: 3vw;
             padding: 1em;
+
+            
         }
         .hide {
             visibility: hidden;
@@ -62,18 +64,27 @@
             justify-content: center;
             border: 1px solid rgba(247, 241, 241, 0.575);
             background-color: rgba(247, 241, 241, 0.575);
-            gap: 6px;
+            gap: 13px;
             &:hover {
                 background-color: transparent;
+            }
+            .icon {
+                color: #000;
+
+                i {
+                    border: 1px solid transparent;
+                    background-color: rgba(247, 241, 241, 0.575);
+                    padding: 6px;
+                    border-radius: 100%;
+                }
             }
         }
         .pd {
             padding-left: 2vw;
         }
-        .form-label{
-            
-            @media screen and (max-width:1200px) {
-                padding-left: 39px!important;
+        .form-label {
+            @media screen and (max-width: 1200px) {
+                padding-left: 39px !important;
             }
         }
     }

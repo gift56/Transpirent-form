@@ -89,11 +89,22 @@
           justify-content: center;
   border: 1px solid rgba(247, 241, 241, 0.575);
   background-color: rgba(247, 241, 241, 0.575);
-  gap: 6px;
+  gap: 13px;
 }
 
 .container-fluid .container .nav:hover {
   background-color: transparent;
+}
+
+.container-fluid .container .nav .icon {
+  color: #000;
+}
+
+.container-fluid .container .nav .icon i {
+  border: 1px solid transparent;
+  background-color: rgba(247, 241, 241, 0.575);
+  padding: 6px;
+  border-radius: 100%;
 }
 
 .container-fluid .container .pd {
