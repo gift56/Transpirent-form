@@ -17,6 +17,22 @@
             input {
                 background: transparent;
             }
+            .d-flex {
+                align-items: center;
+                justify-content: center;
+                position: relative;
+
+                .icon {
+                    position: absolute;
+                    left: 17px;
+                    top: 0;
+                    font-size: 17px;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
 
             .button {
                 border: 1px solid;
@@ -53,6 +69,12 @@
         }
         .pd {
             padding-left: 2vw;
+        }
+        .form-label{
+            
+            @media screen and (max-width:1200px) {
+                padding-left: 39px!important;
+            }
         }
     }
 }

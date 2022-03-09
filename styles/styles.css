@@ -23,6 +23,33 @@
   background: transparent;
 }
 
+.container-fluid .container form .d-flex {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.container-fluid .container form .d-flex .icon {
+  position: absolute;
+  left: 17px;
+  top: 0;
+  font-size: 17px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .container-fluid .container form .button {
   border: 1px solid;
   padding: 2vh 48%;
@@ -71,5 +98,11 @@
 
 .container-fluid .container .pd {
   padding-left: 2vw;
+}
+
+@media screen and (max-width: 1200px) {
+  .container-fluid .container .form-label {
+    padding-left: 39px !important;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
