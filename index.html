@@ -1,16 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transparent form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/styles/css/bootstrap.min.css">
     <link rel="stylesheet" href="/styles/styles.css">
 </head>
+
 <body>
-    
-    <h1 class="text-center mt-5">Login Form</h1>
+    <div class="container-fluid">
+
+        <div class="container">
+            <h1 class="text-center mt-5  mb-5">Login Form</h1>
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-12 form-floating  mb-3 mt-3">
+                    <span></span>
+                    <input type="text" class="form-control text-light" id="validationCustom01" placeholder="Email Id"
+                        required>
+                    <label for="validationCustom01" style="padding-left: 3vw;" class="form-label eee">Email Id</label>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-12 form-floating">
+                    <span></span>
+                    <input type="password" id="validationCustom02" class="form-control text-light"
+                        placeholder="Password">
+                    <label for="validationCustom02" style="padding-left: 3vw;" class="form-label">Password</label>
+                </div>
+                <div class="invalid-feedback">
+                    Please choose a valid password.
+                </div>
+                <div class="col-md-12 mt-5">
+                    <input type="submit" class="btn text-light button" value="Login">
+                </div>
+            </form>
+            <div class="d-flex justify-content-center mb-4 h5">
+                OR
+            </div>
+            <div class="row pb-4">
+                <div class="col-md-3 hide">
+                    <img src="/styles/img/goggleplaystore.png" alt="logo">
+                    <div>Facebook</div>
+                </div>
+                <div class="col-md-3 nav">
+                    <img src="/styles/img/goggleplaystore.png" alt="logo">
+                    <div>Facebook</div>
+                </div>
+                <div class="col-md-3 pd nav">
+                    <img src="/styles/img/goggleplaystore.png" alt="logo">
+                    <div class="gog">Goggle</div>
+                </div>
+                <div class="col-md-3 hide">
+                    <img src="/styles/img/goggleplaystore.png" alt="logo">
+                    <div>Goggle</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/styles/js/transparent.js"></script>
     <script src="/styles/js/bootstrap.bundle.js"></script>
 </body>
+
 </html>
