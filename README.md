@@ -1,8 +1,6 @@
 # Transpirent-form
 #Started a new project
 #Added icon
-#{
-    You can view my first transparent form on the link provided below
+It took me alot of courage in posting My First Transparent form,i Use it to test my ability in handling form.You can view My First Transparent form made with Bootstrap Framework on the link provided below:
     <br/>
-    <a href="https://transparentformdesign.netlify.app/" style="color:green; font-size:25px;" target="_blank">Transparent Form</a>
-}
+    <a target="_blank" href="https://transparentformdesign.netlify.app/" style="color:green; font-size:25px;" >Transparent Form</a>
