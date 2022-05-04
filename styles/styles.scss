@@ -8,7 +8,12 @@
         padding-top: 10vh;
         padding-bottom: 20vh;
     }
-
+    .myinputp {
+        padding-left: 29px !important;
+        @media screen and (min-width:1400px) {
+            padding-left: 35px !important;
+        }
+    }
     .container {
         border: 1px solid;
         border-radius: 12px;
@@ -53,8 +58,6 @@
         .row {
             gap: 3vw;
             padding: 1em;
-
-            
         }
         .hide {
             visibility: hidden;
@@ -69,6 +72,7 @@
             border-radius: 12px;
             &:hover {
                 background-color: transparent;
+                cursor: pointer;
             }
             .icon {
                 color: #000;

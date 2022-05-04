@@ -13,6 +13,16 @@
   }
 }
 
+.container-fluid .myinputp {
+  padding-left: 29px !important;
+}
+
+@media screen and (min-width: 1400px) {
+  .container-fluid .myinputp {
+    padding-left: 35px !important;
+  }
+}
+
 .container-fluid .container {
   border: 1px solid;
   border-radius: 12px;
@@ -96,6 +106,7 @@
 
 .container-fluid .container .nav:hover {
   background-color: transparent;
+  cursor: pointer;
 }
 
 .container-fluid .container .nav .icon {
